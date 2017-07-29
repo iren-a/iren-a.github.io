@@ -34,7 +34,7 @@ input:-moz-read-only {
     border: none;
 }
 
-input:read-only {
+input[readonly] {
     border: none;
 }
 
@@ -81,8 +81,8 @@ input:read-only {
     top: 20px;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .b-pointer .b {
@@ -93,8 +93,8 @@ input:read-only {
     top: 5px;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .incorrect-value {
