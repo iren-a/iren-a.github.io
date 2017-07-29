@@ -1,0 +1,100 @@
+.body {
+    min-width: 1200px;
+}
+
+.container {
+    margin: 80px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 130px;
+    width: 875px;
+    border: 1px solid gray;
+}
+
+.question {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.question input {
+    width: 40px;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+}
+
+.question .sum {
+    width: 50px;
+}
+
+input:read-only {
+    border: none;
+}
+
+.a-pointer,
+.b-pointer {
+    display: none;
+}
+
+.pointer-show {
+    display: block;
+}
+
+.solution {
+    position: relative;
+    padding-top: 150px;
+
+}
+
+.a-pointer {
+    position: absolute;
+    bottom: 25px;
+    left: 36px;
+    width: 39px;
+    height: 150px;
+    background: url("../img/arc1.svg") no-repeat;
+    background-size: 100%;
+}
+
+.b-pointer {
+    position: absolute;
+    bottom: 15px;
+    left: 36px;
+    width: 39px;
+    height: 100px;
+    background: url("../img/arc2.svg") no-repeat;
+    background-size: 100%;
+}
+
+.a-pointer .a {
+    position: absolute;
+    width: 20px;
+    text-align: center;
+    border-radius: 2px;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.b-pointer .b {
+    position: absolute;
+    width: 20px;
+    text-align: center;
+    border-radius: 2px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.incorrect-value {
+    color: red;
+}
+
+.warning {
+    background-color: #ff9933;
+}
+
+
